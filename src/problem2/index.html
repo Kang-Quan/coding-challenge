@@ -34,8 +34,14 @@
               <input type="number" id="input-otp" placeholder="&#xf023; OTP Authentication" style="font-family: Arial, 'Font Awesome 5 Free'"/>
             </div>
             
-            <div class="buttonContainer">   
-                <button class="button-6">SEND TOKENS</button>
+            <div class="buttonContainer ">   
+                <button class="button-6 " onclick="this.classList.toggle('button--loading')" >
+                    <span class="button-text">
+                        SEND TOKENS
+                    </span>
+                </button>
+
+               
             </div>
             
           </form>
